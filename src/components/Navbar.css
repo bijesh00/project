@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #a0ffc6 0%, #83bdef 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.4rem;
+}
+
+.logo img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #f7f0f0;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item a:hover {
+  background-color: #ff7f3e;
+  color: #fff; /* Added color change on hover for better visibility */
+  border-radius: 5px; /* Added rounded corners for better aesthetics */
+}
